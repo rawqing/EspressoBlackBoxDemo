@@ -1,0 +1,7 @@
+# 用户登录测试
+class: LoginParameterizedTest
+method:
+  - name: testLogin01
+    data:
+      - ["hello","world" ,"This email address is invalid"]  #错误的用户名
+      - ["foo@example.com","1" ,"This password is too short"]  #过短的密码
